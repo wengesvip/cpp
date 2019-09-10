@@ -9,7 +9,7 @@ html,body{
 
 .cppw{
 	height: 100%;
-	background-color: #333333;
+	background-color: #ffffff;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -17,7 +17,7 @@ html,body{
 
 .cppw .cpp{
 	margin: 0;
-	color: #fff;
+	color: #333333;
 	font-size: 100px;
 	font-family: 'Roboto'; 
 	position: relative;
@@ -31,8 +31,8 @@ html,body{
 	top:0;
 	left: 0;
 	overflow: hidden;
-	background-color: #333333;
-	color: #fff;
+	background-color: #ffffff;
+	color: #333333;
 }
 
 .cppw .cpp::before{
@@ -45,12 +45,6 @@ html,body{
 	left: 8px;
 	text-shadow: -2px 0 #fe3a7f;
 	animation: t1tle 2s infinite linear;
-}
-
-.counter{
-	position: absolute;
-	background: #fff;
-	bottom: 0px;
 }
 
 @keyframes t1tle {
@@ -118,3 +112,4 @@ html,body{
 		clip: rect(35px,9999px,91px,0);
 	}
 }
+
