@@ -47,6 +47,12 @@ html,body{
 	animation: t1tle 2s infinite linear;
 }
 
+.counter{
+	position: absolute;
+	background: #fff;
+	bottom: 0px;
+}
+
 @keyframes t1tle {
 	0%{
 		clip: rect(30px,9999px,99px,0);
